@@ -1,5 +1,4 @@
 <?php
-session_start();
 include 'include/db.php';  // Sertakan koneksi database
 
 // Pastikan user sudah login (tambahan untuk keamanan)
@@ -334,4 +333,5 @@ foreach ($_SESSION['cart'] as $item) {
     &copy; <?= date('Y') ?> ShiroWash AutoCare. All Rights Reserved.
   </footer>
 </body>
+
 </html>
